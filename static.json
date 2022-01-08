@@ -1,0 +1,8 @@
+{
+  "headers": {
+    "/*": {
+      "X-Author": "nekromerlin",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}
