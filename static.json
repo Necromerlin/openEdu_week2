@@ -4,7 +4,7 @@
       "X-Author": "nekromerlin",
       "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/plain; charset=UTF-8"
-    }
+    },
     "/sample/*": {
       "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/plain; charset=UTF-8"
