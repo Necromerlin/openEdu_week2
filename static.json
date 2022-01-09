@@ -1,13 +1,12 @@
 {
   "headers": {
     "/**": {
+      "Content-Type": "text/plain; charset=UTF-8",
       "X-Author": "nekromerlin",
       "Access-Control-Allow-Origin": "*",
-      "Content-Type": "text/plain; charset=UTF-8"
-    },
-    "/sample/*": {
-      "Access-Control-Allow-Origin": "*",
-      "Content-Type": "text/plain; charset=UTF-8"
+      "Access-Control-Allow-Headers": "X-Resp,Content-Type, Accept, Access-Control-Allow-Headers, Access-Control-Expose-Headers",
+      "Access-Control-Allow-Methods": "GET,POST,DELETE,PUT,OPTIONS",
+      "Access-Control-Expose-Headers": "X-Resp,Content-Type, Accept, Access-Control-Allow-Headers, Access-Control-Expose-Headers"
     }
   }
 }
