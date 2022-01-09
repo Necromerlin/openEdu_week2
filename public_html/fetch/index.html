@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <input id="inp" width="300"><br>
+    <input type="button" id="bt" width="50" value="Нажать!" ><br>
+    <script>{
+            console.clear();
+            function ftch() {
+                const inp = document.getElementById("inp");
+                if (inp.value) {
+                    fetch(inp.value).
+                    then(response => response.text()).
+                    then(data => inp.value=data);
+                } else {
+                    console.log('emp='+inp.value);
+                }
+            }
+            const bt = document.getElementById("bt");
+            bt.addEventListener("click", function(){ftch()});
+        }</script>
+</body>
+</html>
