@@ -9,7 +9,8 @@
       "Access-Control-Expose-Headers": "X-Resp,Content-Type, Accept, Access-Control-Allow-Headers, Access-Control-Expose-Headers"
     },
     "/fetch/*": {
-      "Content-Type": "text/html; charset=UTF-8"
+      "Content-Type": "text/html; charset=UTF-8",
+      "Access-Control-Allow-Origin": "*"
     }
   }
 }
